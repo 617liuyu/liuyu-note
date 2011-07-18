@@ -1,3 +1,42 @@
-jiu HHHH
+                            狼 行 天 下
+1.
 
-Ctrl+shift+T  加标签
+Ctrl+shift + t  加标签
+Ctrl  PgDn /PgUp   换标签
+不能在两个标签下打开同一文件
+
+2.
+  视频教学
+          http://media.happypeter.org/screencasts.html
+
+  
+
+3.
+
++## 可视行(visual line)
++
++启动和退出: V ((Esc)shift+v)
+             j k 上下选中
+             d   剪切
+             p(小)   往下粘贴
+             P       往上粘贴
++
++整体缩进几行代码： shift+v (可视行模式)
+                    shift+v用j 或 k
++
++首先用可视行模式选中这几行,然后 `shift + >`,'shift + <'
+ 
+
+vim a.c b.c (同时打开两个文件)
++    :ls #see buffers
++    :bn # go to next buffer
++    :bp # go to previous buffer   / （先按Esc ,shift + :）
++    :bd # 关闭 a buffer
++    :set hidden 可以不保存切换 
+vim a.c
++    :e b.c # 就切过去了
+
+vim 
+
++    :set number #显示行
++    :set nonumber #不显示行
