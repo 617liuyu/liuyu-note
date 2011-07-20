@@ -42,12 +42,26 @@ vim
 
 +    :set number #显示行
 +    :set nonumber #不显示行
+                       git
+
++    mkdir hhh
++    git init
++    ls  # 无
++    ls -a   # . .. .git 
++    touch hello  # hello 在hhh里
++    git add hello
++    git -a -m "first versiom"
++    tig
+
                        7 20
 1.  git pull  # 刷新
 2.  cd # 要切回上一目录在切到下面所包含目录
 3.  git clone 地址
 4.  file # 查看属性。
 5.  ：q！ # 强行退出
+6.  history # 历史操作
+
+
                    c 语言
 
 
