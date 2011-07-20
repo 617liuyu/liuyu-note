@@ -67,6 +67,25 @@ vim
 
 1.  gcc -Wall **.c  # 严格检查代码     #  Wall中W 是大写！
 2.  echo $?   #  运行之后，用此指令，若为0，正确，main 函数要把返回值返回到系统。
-3.  
+3.vim  编译    
+(1)	+  gcc a.c  # 以 a.c 为例   
+	+  ls
+	+  ./a.out
+(2)
+	+  在vim里编译
+	+  :w 
+	+  :sh  # vim 命令行里
+	+  cc a.c
+	+  ./a.out
+	+  ctrl D  #  回到vim里，光标位置不变，当代码多时能凸现出优点
+	+  :u  # 回到上一次修改，ctrl D 再往回切
+(3)     +  gcc -S a.c # 以a.c为例，
+        +  ls  # 会出现 a.s
+        +  vim a.s #  是汇编程序 
 
+                          笔记
 
+   上攒文件
+       +  git add a.c
+       +  git commit -a -m " ***** "
+       +  git push(第一次会有所不同)。
