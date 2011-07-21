@@ -60,7 +60,7 @@ vim
 4.  file # 查看属性。
 5.  ：q！ # 强行退出
 6.  history # 历史操作
-
+7.  unzip   # 解压
 
                    c 语言
 
@@ -82,10 +82,46 @@ vim
 (3)     +  gcc -S a.c # 以a.c为例，
         +  ls  # 会出现 a.s
         +  vim a.s #  是汇编程序 
+(4)     +  vim a.c 
+        +  Ctrl+n   # it is used in INSERT mode
+                      it will search current file add all included files
+(5)     +  vim .vimrc # 对vim的设置
 
-                          笔记
 
-   上攒文件
-       +  git add a.c
+                            怎么写笔记
+
+   上攒文件 (在笔记liuyu-note或liuyu-projects下)
+(1)    +  git add a.c
        +  git commit -a -m " ***** "
        +  git push(第一次会有所不同)。
+(2)   
+       +  先 vim .gitconfig ,在最后一行写[core]
+                                               editor = vim
+       +  vim a.c (改一下，退出)
+       +  git commit -a   #  可增加注释
+       +  git push
+                             怎么建工程
++    Dashboard
++    New Repository
++    填写第一行就行  Project Name 要与所建的文件名相同
+                            怎么删除工程
++    Dashboard ——>***-Projects——>Admin
+                            怎么删除工程里的文件
++    git rm a.c  ( 不跟踪)
++    git commit -a      （此步骤不能省）
++    git push
+
+
+                          vim
++  /home/akaedu/.vim/snippets
++  vim c.snippets
++  举例         # added for dog
+          snippet dog        记得type Tabe ,否则出现红字。
+                I love dogs
+
+  为了使命令简短(.bashrc)
++   /home/akaedu
++   vim .bashrc
++   举例        在最后一行输入 alias aaa='sudo apt-get install'
++   source .bashrc  #相当于把 .bashrc 里的全运行一遍
+
