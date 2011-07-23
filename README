@@ -86,7 +86,7 @@ vim
         +  Ctrl+n   # it is used in INSERT mode
                       it will search current file add all included files
 (5)     +  vim .vimrc # 对vim的设置
-
+(6)     +  尽量用空格缩进，不用Tab；两者不能混用，如果混用，会造成格式混乱。
 
                             怎么写笔记
 
