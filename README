@@ -124,4 +124,13 @@ vim
 +   vim .bashrc
 +   举例        在最后一行输入 alias aaa='sudo apt-get install'
 +   source .bashrc  #相当于把 .bashrc 里的全运行一遍
-
+  vim 配置文件
++   vim .vimrc
+        set hidden
+	set autoindent  “回车时与上一行对齐”
+	set expandtab  ''把 Tab 展开成空格“
+	set tabstop=4   ”让Tab 占4个空格“
+	set shiftwidth=4 “缩进4个空格，不是8个。”
+  在vim 文件里怎么查找
++   /***
++   小写n.
