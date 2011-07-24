@@ -168,5 +168,4 @@ vim
 
 +   git revert HEAD
 
-
-
++   如果没git push，用git throw就可以了。（可以查看vim .gitconfig）
