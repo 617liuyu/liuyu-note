@@ -98,10 +98,6 @@ vim
         +  ctags *   # *代表当前下的所有文件。
 
 
-
-
-
-
                             怎么写笔记
 
    上攒文件 (在笔记liuyu-note或liuyu-projects下)
@@ -112,7 +108,7 @@ vim
        +  先 vim .gitconfig ,在最后一行写[core]
                                                editor = vim
        +  vim a.c (改一下，退出)
-       +  git commit -a   #  可增加注释
+       +  git commit -a   #  可增加注释   (git commit -a -v更好)
        +  git push
                              怎么建工程
 +    Dashboard
@@ -169,3 +165,18 @@ vim
 +   git revert HEAD
 
 +   如果没git push，用git throw就可以了。（可以查看vim .gitconfig）
+
+                   where are you ?
+
++   which  #  which - locate a command 。只能定位系统上的命令  eg : which git ,which ls .
++   locat  #  locate - find files by name。 只能找到老文件，不能找到新文件。
+              他在自己的数据库里查找，一段时间才更新    但在系统上查找会比较慢。
++  find    #  find - search for files in a directory hierarchy 查找特定文件夹
+              里面的字符，find ***|grep ***. eg :  fint liuyu-projects|grep m .
++   ps aux |grep ***  # eg : ps aux|grep firefox.
+    kill 进程号，退出。kill -9 进程号，强行退出。
+
+
+
+
+
