@@ -52,6 +52,8 @@ vim
 +    git add hello
 +    git -a -m "first versiom"
 +    tig
++    tig 的功能和gitk一样，后者支持鼠标
+
 
                        7 20
 1.  git pull  # 刷新
@@ -154,3 +156,17 @@ vim
   在vim 文件里怎么查找
 +   /***
 +   小写n.
+
+              怎么回到上一版本
+
++   git chechout 版本号    #  就可以回到此版本
++   git chechout master    #  再切回来
++   git chechout 版本号 -b 定义一个新名
++   git branch
++   git chechout 新名      #  就可以回到此版本
+  怎么把已经git push到网上的垃圾版本在改回去
+
++   git revert HEAD
+
+
+
