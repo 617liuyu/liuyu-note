@@ -179,6 +179,7 @@ vim
 
 +   如果没git push，用git throw就可以了。（可以查看vim .gitconfig）
 
++   卸载： sudo apt-get purge ***
                    where are you ?
 
 +   which     #  which - locate a command 。只能定位系统上的命令  eg : which git ,which ls .
