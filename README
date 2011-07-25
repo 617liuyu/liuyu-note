@@ -196,5 +196,7 @@ vim
 (1)git clone https://github.com/happypeter/hen.git
     ~/hen/search/curse$ make
     ~/hen/search/curse$ sudo make install
-(0) snipMate
+(2) snipMate  在Google 中搜索——》下载——》当前文件下解压。
+
+(3) gource
 
