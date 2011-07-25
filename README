@@ -168,13 +168,13 @@ vim
 
               怎么回到上一版本
 
-+   git chechout 版本号    #  就可以回到此版本
-+   git chechout master    #  再切回来
-+   git chechout 版本号 -b 定义一个新名
++   git checkout 版本号    #  就可以回到此版本
++   git checkout master    #  再切回来
++   git checkout 版本号 -b 定义一个新名
 +   git branch
-+   git chechout 新名      #  就可以回到此版本
-+   git chechout -D 名     #  删除
-+   现有master 分支，在做一个备份， git chechout -b tmp.
++   git checkout 新名      #  就可以回到此版本
++   git checkout -D 名     #  删除
++   现有master 分支，在做一个备份， git checkout -b tmp.
   怎么把已经git push到网上的垃圾版本在改回去
 
 +   git revert HEAD
