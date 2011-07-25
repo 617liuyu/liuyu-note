@@ -53,7 +53,35 @@ vim
 
                        translation
 +    http://dict.youdao.com/
+                       
+                       github
 
++    http://www.happypeter.org/posts/21
+ 
+                       tar
+
++    http://www.happypeter.org/posts/10
+
+
+关于压缩和解压，以下几种情况最常见:
+
+1.将名为dir的文件夹压缩为 .tar.gz的包：
+
+  tar zcvf  dir.tar.gz dir
+
+  相应的解压命令：
+
+  tar zxvf dir.tar.gz 
+
+2.将名为dir的文件夹压缩为 .tar.bz2的包：
+
+  tar jcvf dir.tar.bz2 dir
+
+  相应的解压命令：
+
+  tar jxvf dir.tar.bz2
+
+  当然以上过程也个以用tar, bunzip2, gunzip, 分别分为多步完成，但是一般不用，太麻烦，所以也不用记。以上的压缩方式，实际中只需记住一种就够用了，但是解压方式两种都要死记硬背下来，因为太常用了。
 
                        git
 
